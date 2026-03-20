@@ -4,6 +4,7 @@
 - [WaNova: WhatsApp-first AI Agent](#WaNova-whatsapp-first-ai-agent)
 - [Who it's for](#who-it's-for)
 - [What you can do on WhatsApp](#what-you-can-do-on-whatsapp)
+- [Demo proof](#demo-proof)
 - [Getting started](#getting-started)
 - [How much does it cost?](#how-much-does-it-cost)
 - [The tech stack](#the-tech-stack)
@@ -38,6 +39,15 @@ Designed for the WhatsApp-first UX: if users won't install another app, WaNova m
 - Send images; WaNova analyzes them with Groq vision
 - Request generated images; WaNova produces images using Together (FLUX.1-schnell-Free)
 - Keep context using memory (short-term state + Qdrant long-term memory)
+
+---
+
+## Demo proof
+
+[![WaNova demo video](https://cdn.loom.com/sessions/thumbnails/ac6b3ea0c4114052b9b5807b95dead72-05a795281d1acce7-full-play.gif)](https://www.loom.com/share/ac6b3ea0c4114052b9b5807b95dead72)
+
+This video is a **demo version** of WaNova's capabilities.
+The real WhatsApp-native flow is even faster in practice because users interact directly inside their existing chat.
 
 ---
 
