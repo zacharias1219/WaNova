@@ -1,0 +1,96 @@
+name: Bug report
+description: Something is broken — include environment and repro steps
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. **Do not paste API keys, tokens, or phone numbers** — redact secrets.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One or two sentences describing the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps, or minimal code/commands. Include how you trigger the webhook or UI if relevant.
+      placeholder: |
+        1. …
+        2. …
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### Environment"
+
+  - type: input
+    id: os
+    attributes:
+      label: OS (e.g. Windows 11, Ubuntu 22.04, macOS 14)
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version (`python --version`)
+      placeholder: e.g. 3.12.2
+    validations:
+      required: true
+
+  - type: input
+    id: commit
+    attributes:
+      label: Git commit or tag (optional)
+      placeholder: e.g. abc1234 or main @ 2025-03-01
+
+  - type: dropdown
+    id: run_mode
+    attributes:
+      label: How are you running WaNova?
+      options:
+        - Docker Compose
+        - uv / local (no Docker)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: env_config
+    attributes:
+      label: Relevant configuration (no secrets)
+      description: Which features are on (e.g. Groq chat, Qdrant, WhatsApp sandbox). List env var *names* only, not values, unless they are non-sensitive.
+      placeholder: |
+        e.g. TEXT_MODEL_NAME set; QDRANT_URL set; WHATSAPP_* configured for Cloud API sandbox …
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or traceback (optional)
+      description: Redact tokens, phone numbers, and user ids.
+    validations:
+      required: false

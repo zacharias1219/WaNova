@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security policy
+    url: https://github.com/zacharias1219/whatsapp-agent/blob/main/SECURITY.md
+    about: How to report vulnerabilities responsibly (avoid public issues for undisclosed bugs).

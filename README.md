@@ -31,7 +31,8 @@
   <a href="docs/GETTING_STARTED.md"><b>Full setup guide</b></a> ·
   <a href="#getting-started"><b>Quick start</b></a> ·
   <a href="#demo-proof"><b>Demo</b></a> ·
-  <a href="https://github.com/zacharias1219/whatsapp-agent/issues"><b>Issues</b></a>
+  <a href="https://github.com/zacharias1219/whatsapp-agent/issues"><b>Issues</b></a> ·
+  <a href="CONTRIBUTING.md"><b>Contributing</b></a>
 </p>
 
 <br/>
@@ -46,6 +47,9 @@
 - [Getting started](#getting-started)
 - [How much does it cost?](#how-much-does-it-cost)
 - [The tech stack](#the-tech-stack)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+- [Security](#security)
 - [License](#license)
 
 ## WaNova: WhatsApp-first AI Agent
@@ -177,6 +181,20 @@ If you want to try it out on Google Cloud Run, you can get a free account and ge
 | ElevenLabs  | Amazing TTS models                                                                                       |
 | together.ai | Behind WaNova's image generation process                                                                    |
 
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, tests, and pull request expectations.
+
+## Code of Conduct
+
+This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md). Replace the enforcement contact placeholder in that file with your email or GitHub handle before promoting the repo widely.
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for how to report vulnerabilities responsibly.
 
 ---
 
