@@ -1,3 +1,41 @@
+<p align="center">
+  <img src="logo.png" alt="WaNova logo" width="200" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/WaNova-WhatsApp--first%20AI%20Agent-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WaNova" />
+</p>
+
+<h1 align="center">WaNova</h1>
+
+<p align="center">
+  <b>WhatsApp-first AI agent — multimodal LangGraph workflows on Meta Cloud API</b>
+</p>
+
+<p align="center">
+  <i>You already have WhatsApp open — message and get answers back, no new app to install.</i>
+</p>
+
+<br/>
+
+<p align="center">
+  <a href="#getting-started"><img src="https://img.shields.io/badge/Quick%20start-Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Quick start" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /></a>
+  <a href="https://langchain-ai.github.io/langgraph/"><img src="https://img.shields.io/badge/LangGraph-workflows-1C3C3C?style=flat-square" alt="LangGraph" /></a>
+  <a href="https://github.com/Chainlit/chainlit"><img src="https://img.shields.io/badge/Chainlit-UI-FF7000?style=flat-square" alt="Chainlit" /></a>
+</p>
+
+<p align="center">
+  <a href="docs/GETTING_STARTED.md"><b>Full setup guide</b></a> ·
+  <a href="#getting-started"><b>Quick start</b></a> ·
+  <a href="#demo-proof"><b>Demo</b></a> ·
+  <a href="https://github.com/zacharias1219/whatsapp-agent/issues"><b>Issues</b></a>
+</p>
+
+<br/>
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
